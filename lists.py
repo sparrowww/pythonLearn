@@ -48,6 +48,28 @@ print("Al1" not in strWord)
 for number in list1:
     print(number)
 
+word1 = "qwerty"
+countE = 0
+for symbol in word1:
+    if symbol == "e":
+        countE += 1
+
+print("countE =", countE)
+
+numbers = list(range(1, 10, 2))
+print(numbers)
+
+for i in range(0, 5):
+    print(i)
+
+print(list1)
+print(list1[1:3])
+print(list1[:3])
+print(list1[3:])
+print(list1[::2])  # с шагом 2
+print(list1[1:-1])
+print(list1[::-1])  # reverse list!
+print(list1[3:1:-1])  # reverse list!
 
 
 
